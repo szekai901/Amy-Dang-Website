@@ -8,3 +8,42 @@
     grid-template-columns: 30% auto;
     background-color:red;
 }
+.main-wrapper
+{
+    max-width:1200px;
+    margin:0 auto;
+}
+.menu-icon
+{
+    display:none;
+}
+.wrapper 
+{
+    max: width 100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    grid-template-areas:
+        "featuredMain featuredMain featuredSub"
+        "contentMain contentMain contentMain"
+}
+
+.featured
+{
+    grid-area:featuredMain;
+    min-height: 500px;
+    background-color:purple;
+}
+
+.sub-featured
+{
+    grid-area:featuredSub;
+    background-color:blue;
+}
+
+.main-content
+{
+    grid-area:contentMain;
+    background-color:orange;
+}
