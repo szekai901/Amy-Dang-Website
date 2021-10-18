@@ -1,3 +1,10 @@
+body
+{
+    font-family:'Arial Narrow';
+    background-image:url(imgs/background.png);
+    background-size:cover;
+}
+
 .nav-wrapper
 {
     max-width:1200px;
@@ -5,13 +12,40 @@
     padding:15px 20px;
     margin-top:30px;
     display:grid;
-    grid-template-columns: 30% auto;
-    background-color:red;
+    grid-template-columns: 65% auto;
+    
 }
 .nav-wrapper ul li
 {
     display:inline;
     list-style-type:none;
+}
+
+.nav-wrapper a
+{
+    letter-spacing: .1em;
+    text-decoration:none;
+    font-weight:bold;
+    color:lightskyblue;
+}
+
+.nav-wrapper a:hover
+{
+    cursor:pointer;
+    color:royalblue;
+}
+
+.list-item
+{
+    margin-left:10px;
+    text-transform:uppercase;
+    padding:10px;
+}
+
+.logo
+{
+    font-weight:bold;
+    font-size:24px;
 }
 .main-wrapper
 {
@@ -34,11 +68,21 @@
         "contentMain contentMain contentMain"
 }
 
+.wrapper > .featured,
+.wrapper > .sub-featured > div,
+.wrapper > .main-content
+{
+    padding: 20px;
+}
+
 .featured
 {
     grid-area:featuredMain;
     min-height: 500px;
-    background-color:purple;
+    background: linear-gradient (rgba(0,0,0.6), rgba(0,0,0.1))
+    border-box, url(imgs/ocean.jpg) no-repeat center center;
+    display:grid;
+    align-content:flex-end;
 }
 
 .sub-featured
