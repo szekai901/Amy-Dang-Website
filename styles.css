@@ -112,21 +112,21 @@ body
 
 .sub1
 {
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.1))
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1))
     border-box, url(imgs/waterfall.jpg) no-repeat center center;
     background-size:cover;
 }
 
 .sub2
 {
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.1))
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1))
     border-box, url(imgs/seaweed.jpg) no-repeat center center;
     background-size:cover;
 }
 
 .sub3
 {
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.1))
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1))
     border-box, url(imgs/autumn.jpg) no-repeat center center;
     background-size:cover;
 }
@@ -145,7 +145,7 @@ body
     grid-template-columns: minmax(20px, 600px) minmax(10px, 300px) minmax(10px, 300px);
     justify-content:center;
     grid-template-rows: 1fr 1fr 1fr;
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.1))
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.1))
     border-box, url(imgs/water-gradient.jpg) no-repeat center center;
     background-size:cover;
     color:white;
